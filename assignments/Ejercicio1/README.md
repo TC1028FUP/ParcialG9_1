@@ -20,7 +20,7 @@ if __name__ == '__main__':
 En una tienda de celulares al mayoreo, el precio de los mismos se ha establecido como fijo de acuerdo a la cantidad de productos que lleves y si el celular es de gama alta o media. Observa la tabla de abajo. **En este problema, asumimos que un cliente se lleva celulares de una sóla gama**
 
 
-|     Cantidad    |  Gama baja    |  Gama alta     | 
+|     Cantidad    |  Gama media    |  Gama alta     | 
 | :-------------: |:-------------:| :-------------:| 
 |   1 - 3         |    9500       |   15500        |
 |    > 3          |    8000       |   15500        |
@@ -34,7 +34,7 @@ En la función main escribe el código necesario para preguntar al usuario la ga
 ``` 
 Gama (A/M): M
 Cantidad: 4
-Total a pagar $31000 
+Total a pagar $32000 
 ```
 **Otro ejemplo**
 ``` 
@@ -45,14 +45,20 @@ Error en los datos
 **Otro ejemplo**
 ``` 
 Gama (A/M): M
-Cantidad: 4
-Total a pagar $32000
+Cantidad: 2
+Total a pagar $19000
 ``` 
 **Uno más**
 ``` 
 Gama (A/M): A
 Cantidad: -5
 Error en los datos
+``` 
+**El último**
+``` 
+Gama (A/M): A
+Cantidad: 2
+Total a pagar $31000
 ``` 
 
 **Nota:** Por favor no quites nada de lo que ya tienes, simplemente agrega el código 
